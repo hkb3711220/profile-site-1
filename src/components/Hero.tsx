@@ -6,11 +6,11 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <div className='w-full h-[85vh] mx-auto flex lg:flex-row flex-col sm:p-10 p-3'>
-      <div className='lg:w-1/2 w-full lg:h-full h-[50vh] p-3'>
+    <div className='w-full mx-auto flex lg:flex-row flex-col sm:p-10 p-3'>
+      <div className='lg:w-1/2 w-full p-3'>
         <img src={profile} alt="profile" className='rounded-2xl m-auto h-full drop-shadow-lg' />
       </div>
-      <div className={`${styles.paddingX} flex flex-col lg:items-start items-center md:justify-center lg:w-1/2 w-full lg:gap-5 gap-2 mx-auto h-full`}>
+      <div className={`${styles.paddingX} flex flex-col lg:items-start items-center md:justify-center lg:w-1/2 w-full lg:gap-5 gap-2 mx-auto`}>
         <h1 className='font-bold xl:text-[80px] lg:text-[60px] md:text-[50px] text-[40px] xl:leading-[98px] md:mt-2'>
           I'm <TypeAnimation sequence={[
             'Chanhu', // Types 'One'

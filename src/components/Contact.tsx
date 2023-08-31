@@ -34,7 +34,7 @@ const Contact = () => {
 
 
   return (
-    <div className='mt-5 flex xl:flex-row flex-col sm:p-10 p-10 w-full xl:h-[70vh] gap-5' ref={ref}>
+    <div className='mt-5 flex xl:flex-row flex-col sm:p-10 p-10 w-full gap-5' ref={ref}>
       <div className='xl:w-1/2 w-full xl:ml-20'>
         <h2 className='xl:text-[80px] lg:text-[60px] md:text-[50px] text-[40px] font-bold'>Contact Me</h2>
         <p className='text-secondary mt-2 md:text-[16px] text-[12px] lg:w-[85%] w-full'>
